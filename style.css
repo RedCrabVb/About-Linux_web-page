@@ -37,7 +37,7 @@ body
 }
 .main {
 	width: 900px;
-	height: 3100px;
+	height: auto;
 	margin: 25px 0 0 -125px;
 	background: #3b444d;
 	color: White;
@@ -53,6 +53,10 @@ body
 h3{
 	text-align: center;
 	color: #FFC773
+}
+h2{
+	text-align: center;
+	color: #FFC772
 }
 .fig{
 	display: block;
