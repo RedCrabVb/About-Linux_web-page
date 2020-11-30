@@ -2,14 +2,16 @@ body
 {
 	font-family: Arial, Verdana,  sans-serif;
 	font-size: 20pt;
-	background-color: #3b433d;
+	/*background-color: #3b433d;*/
+	background: #4E4E4E;
 	color: #333;
 }
 
 .b-menu
 {
 	overflow: hidden;
-	background: #4E4E4E;
+/*	background: #4E4E4E;*/
+	background-color: #3b433d;
 	box-shadow: 0px 13px 17px -6px #000000;
 }
 .menu
@@ -21,42 +23,50 @@ body
 {
 	float:left;
 	list-style: none;
-	margin:10px 25px ;
+	margin:10px 25px;
+	font-size: 35pt;
 }
 .menu li a
 {
 	font-family: Arial, Verdana,  sans-serif;
-	color:#fff;
+	color: #fff;
 	text-decoration: none;
 }
 .menu li a:hover
 {
 	font-family: Arial, Verdana,  sans-serif;
-	color:#ccc;
-	border-bottom:5px dotted #ccc;
+	text-decoration: underline;
+	color: #FFC773;
 }
 .main {
-	width: 900px;
+	cursor: default;
+
+	width: 45%;
 	height: auto;
-	margin: 25px 0 0 -125px;
+
 	background: #3b444d;
 	color: White;
-	text-indent: 1.2em;
-	border-radius: 5px;
-	border: 3px solid #000;
 
-	padding-right: 15px;
-  padding-left: 15px;
+	border-radius: 9px;
+	border: 3px solid #000;
+	text-indent: 1.2em;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 30px 20px;
+
+	padding-right: 20px;
+  padding-left: 20px;
+
+	margin: 30px 30px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 27%;
 }
-h3{
+h3, h2, a{
 	text-align: center;
-	color: #FFC773
+	color: #FFC773;
+	text-decoration: none;
 }
-h2{
-	text-align: center;
-	color: #FFC772
+a:hover{
+	text-decoration: underline;
 }
 .fig{
 	display: block;
@@ -65,4 +75,28 @@ h2{
 	margin-top: 0;
 	margin-bottom: 5px;
 	color: #666;
+
+	width: 45%;
+	float: right;
+	margin: 10px;
+	padding: 6px;
+	margin: 5px;
+}
+
+li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.column1of2 {
+	width: 40%;
+	float: right;
+	margin: 10px;
+	padding: 6px;
+	margin: 5px;
+}
+.column2of2{
+	width: 80%;
+	float: center
+	margin: 10px;
 }
